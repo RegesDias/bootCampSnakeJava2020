@@ -1,0 +1,40 @@
+
+:root{
+    --preta: #141414;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background: var(--preta);
+    width: 100%;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    min-width: 80vh;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    min-width: 80vh;
+}
+button{
+    color: black;
+}
